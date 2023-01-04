@@ -1,0 +1,114 @@
+body{
+    /* width: auto;
+    height: auto; */
+    background-image: url(BG.jpg);
+    background-size:cover;
+}
+header{
+    margin: 10px;
+    padding: 30px 1000px 0px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #084655;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+.calcTemp{
+    background: rgba(51, 42, 20, 0.842);
+    max-width: max-content;
+    width: 100%;
+    margin: 290px auto;
+    padding: 2px;
+    border: 8px solid #330516;
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px rgba(147, 177, 185, 0.719);
+    text-align: center;
+}
+
+.heading{
+    background-color: rgb(74, 248, 242);
+    font-size: 50px;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 8px;
+    padding: 2px;
+}
+
+.temp{
+    color: red;
+    margin: 22px;
+    padding: 4px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    
+}
+
+.tempScale{
+    padding: 2px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#value{
+    font-size: 28px;
+    text-align: center;
+}
+
+#input{
+    font-size: 24px;
+}
+
+#output{
+    font-size: 24px;
+}
+
+.btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 28px;
+    margin: 20px;
+    margin-top: 24px;
+    background-color: rgb(217, 224, 15);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.btn:hover{
+    font-size: 38px;
+    background-color: rgb(174, 12, 20);
+    color: rgb(156, 156, 156);
+    font-weight: bolder;
+}
+
+.res{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline solid black;
+}
+
+.result
+{
+    margin: 12px;
+    padding-bottom: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#result{
+    font-size: 22px;
+    text-align: center;
+}
+
+footer{
+    font-size: 16px;
+    background-color: #c5a2a2;
+    color: #ffae00;
+    text-align: center;
+    margin: 6px;
+    padding: 2px;
+  }
